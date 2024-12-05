@@ -88,7 +88,7 @@ UPDATE Hospital_Clinical_Data
 SET patient_gender = CASE 
                          WHEN patient_gender = 'F' THEN 'Female'
 						 WHEN patient_gender = 'M' THEN 'Male'
-						 WHEN patient_gender = 'NC' THEN 'Other'
+						 WHEN patient_gender = 'NC' THEN 'Unknown'
                    END;
 
 -------patient_age grouping---------
