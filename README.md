@@ -9,7 +9,7 @@
 - [Data Cleaning](#data-cleaning)
 - [Key Business Questions](#key-business-questions)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Visualization](#data-visualization)
+- [Data Visualization](#DASHBOARD)
 - [Key Insights](#key-insights)
 - [RECOMMENDATIONS](#recommendations)
 
@@ -117,7 +117,7 @@ These processes were carried out using SQL Server Management Studio:
 
 
 
-DASHBOARD
+### DASHBOARD
 ![Hospital Patients Visit](https://github.com/tayblet/Hospital-Clinic-Report-Project/blob/fed99aea2ec6bcd054fd0e5de33633979152d67a/Hospital%20Patients%20Visit%20pic.PNG)
 
 
