@@ -118,6 +118,8 @@ These processes were carried out using SQL Server Management Studio:
 
 
 DASHBOARD
+![Hospital Patients Visit](https://github.com/tayblet/Hospital-Clinic-Report-Project/blob/fed99aea2ec6bcd054fd0e5de33633979152d67a/Hospital%20Patients%20Visit%20pic.PNG)
+
 
 
 ### Key Insights
