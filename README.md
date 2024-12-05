@@ -17,7 +17,7 @@
 The Hospital Patients Visit Reports for 2019-2020 provide a detailed analysis of patient visits, encompassing key metrics such as average wait times, patient satisfaction, total monthly visits, administrative vs. non-administrative appointments, referrals and walk-in patients, and demographics by age group and race. The insights drawn from this data help highlight areas for improvement in hospital operations and patient care, offering actionable recommendations to enhance efficiency, satisfaction, and overall service quality. By implementing these strategies, the hospital can better meet the needs of its diverse patient population and optimize healthcare delivery.
 
 ## Data Source
-The primary data source is from Kaggle  
+The data source is from my Mentor for Practise 
 [Download the dataset here](https://drive.google.com/file/d/1h7SHRhKeP9jP1axeYRtKg-TE3UldhiYx/view)
 
 ## Landing Page
