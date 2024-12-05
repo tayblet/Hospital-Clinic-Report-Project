@@ -1,7 +1,7 @@
 # Hospital-Clinic-Report-Project
 
 
-### Table of Contents
+## Table of Contents
 - [Hospital Patients Visit Reports 2019-2020 Overview](#hospital-patients-visit-reports-2019-2020-overview)
 - [Data Source](#data-source)
 - [Landing Page](#landing-page)
@@ -11,16 +11,16 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Visualization](#data-visualization)
 - [Key Insights](#key-insights)
-- [Recommendation](#recommendation)
+- [RECOMMENDATIONS](#recommendations)
 
-### Hospital Patients Visit Reports 2019-2020 Overview
+## Hospital Patients Visit Reports 2019-2020 Overview
 The Hospital Patients Visit Reports for 2019-2020 provide a detailed analysis of patient visits, encompassing key metrics such as average wait times, patient satisfaction, total monthly visits, administrative vs. non-administrative appointments, referrals and walk-in patients, and demographics by age group and race. The insights drawn from this data help highlight areas for improvement in hospital operations and patient care, offering actionable recommendations to enhance efficiency, satisfaction, and overall service quality. By implementing these strategies, the hospital can better meet the needs of its diverse patient population and optimize healthcare delivery.
 
-### Data Source
+## Data Source
 The primary data source is from Kaggle  
 [Download the dataset here](https://drive.google.com/file/d/1h7SH...)
 
-### Landing Page
+## Landing Page
 | Column Name         | Data Type | Description                                                            |
 |---------------------|-----------|------------------------------------------------------------------------|
 | date                | DateTime  | Timestamp of patient record creation or visit.                         |
@@ -35,7 +35,7 @@ The primary data source is from Kaggle
 | patient_waittime    | Integer   | Time the patient waited (in minutes).                                  |
 | department_referral | String    | Department to which the patient is referred; None if not referred.     |
 
-### Tools
+## Tools
 - Microsoft Excel: Exploring the data before importing to SQL Server Management Studio
 - SQL Server Management Studio: Data cleaning, testing, and analyzing the data
 - Power BI: Visualizing the data via an interactive dashboard
@@ -69,7 +69,7 @@ These processes were carried out using SQL Server Management Studio:
 - **Drop Unused Columns**
   - Removed unnecessary columns: `patient_first_initial`, `patient_last_name`, `patient_admin_flag`, and `patient_age`.
 
-### Key Business Questions
+## Key Business Questions
 1. **Average Wait Time**: Discover how long patients typically wait before their appointments. Uncover patterns and trends that shed light on the efficiency of our healthcare system.
 2. **Patient Satisfaction**: We'll explore the average satisfaction scores given by our patients. Learn about the factors that contribute to a positive patient experience and how we can enhance it.
 3. **Total Patient Visits Monthly**: Get an overview of the ebb and flow of patients through our doors each month. Understand the dynamics of healthcare demand over time.
@@ -77,15 +77,15 @@ These processes were carried out using SQL Server Management Studio:
 5. **Referrals and Walk-In Patients**: Uncover the balance between patients referred to specific departments and those who walk in without prior referral. How does this impact the overall patient experience?
 6. **Patient Visits by Age Group and Race**: Explore the distribution of patient visits across different age groups and races. Gain insights into the diversity of healthcare needs and preferences.
 
-### Exploratory Data Analysis
-#### Primary KPIs
+## Exploratory Data Analysis
+### Primary KPIs
 1. Average Wait Time: 35.26 minutes
 2. Patient Satisfaction Score: 5.47
 3. Monthly Patient Volume: 431 (lowest in January), 1,024 (highest in August)
 4. Percentage of Walk-In vs. Referred Patients: Walk-In: 58.59%, Referred: 41.41%
 5. Equity in Wait Times: Longer wait times for older adults (51–65 and 65+) and certain racial groups
 
-#### Secondary KPIs
+### Secondary KPIs
 1. Total Patient Visits (Yearly):
    - Total patients: 9,216
    - Year 2019: 4,878
